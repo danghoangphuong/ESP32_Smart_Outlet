@@ -5,10 +5,6 @@ Author: Phuong Dang
 */
 #include "wifi_config.h"
 
-Preferences esp_pref;
-String Get_wifi_list();
-
-WebServer server(80);
 
 const char web_page[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML>
@@ -39,17 +35,19 @@ const char web_page[] PROGMEM = R"rawliteral(
 </body>
 </html>)rawliteral";
 
-void Handle_Root()
+Wifi_config::Wifi_config(uint16_t port): _server(port) {}
+
+void Wifi_config::Handle_Root()
 {
   String html = web_page;
   html.replace("%WIFI_LIST%", Get_wifi_list());
-  server.send(200, "text/html", html);
+  _server.send(200, "text/html", html);
 }
 
-void Handle_Save()
+void Wifi_config::Handle_Save()
 {
-  String ssid = server.arg("ssid");
-  String pass = server.arg("pass");
+  String ssid = _server.arg("ssid");
+  String pass = _server.arg("pass");
 
   if(ssid.length() > 0)
   {
@@ -58,24 +56,24 @@ void Handle_Save()
     esp_pref.putString("pass", pass); // Lưu pass vào key "pass"
     esp_pref.end(); // Đóng Preferences
 
-    Serial.println("Save WiFi info to Preferences");
+    Serial.println("Save WiFi info");
 
     // Phản hồi cho user
     String msg = "<html><head><meta charset='utf-8'></head><body>";
     msg += "<p>Connecting to: <b>" + ssid + "</b></p>";
     msg += "</body></html>";
-    server.send(200, "text/html", msg);
+    _server.send(200, "text/html", msg);
 
     delay(2000);
     ESP.restart();
   }
   else 
   {
-    server.send(200, "text/html", "Lỗi: SSID không được để trống!");
+    _server.send(200, "text/html", "Lỗi: SSID không được để trống!");
   }
 }
 
-String Get_wifi_list() 
+String Wifi_config::Get_wifi_list() 
 {
   String list = "";
   int n = WiFi.scanNetworks(); // Quét mạng
@@ -107,10 +105,10 @@ String Get_wifi_list()
     String ssid = WiFi.SSID(idx);
     
     // Chọn Icon cột sóng dựa trên độ mạnh
-    String icon = " •)"; // Mặc định trung bình
-    if (rssi >= -55)      icon = " •)))"; // Rất mạnh
-    else if (rssi >= -70) icon = " •))";    // Mạnh
-    else if (rssi < -85)  icon = " ⚠️";      // Yếu
+    String icon = " 🆖"; // Mặc định trung bình
+    if (rssi >= -55)      icon = " 🆗"; // Rất mạnh
+    else if (rssi >= -70) icon = " ⚠️";    // Mạnh
+    else if (rssi < -85)  icon = " ❌";      // Yếu
 
     list += "<option value='" + ssid + "'>";
     list += ssid + icon;
@@ -120,30 +118,38 @@ String Get_wifi_list()
   return list;
 }
 
-void Reset_wifi_config()
+void Wifi_config::Reset_wifi_config()
 {
     esp_pref.begin("wifi", false); // namespace "wifi", read/write mode
-    esp_pref.clear(); // Xóa sạch mọi thứ trong namespace "wifi"
+    esp_pref.clear(); // Xóa hết trong namespace "wifi"
     esp_pref.end();
-    Serial.println("WiFi info cleared from Preferences. Restarting...");
+    Serial.println("WiFi info cleared. Restarting...");
     delay(500);
     ESP.restart();
 }
 
-void Server_setup()
+void Wifi_config::Server_setup() // gọi trong setup
 {
-  server.on("/", Handle_Root);
-  server.on("/save", Handle_Save);
-  server.begin();
+    _server.on("/", [this]() { this->Handle_Root(); });
+    _server.on("/save", [this]() { this->Handle_Save(); });
+    _server.onNotFound([this]() {
+        _server.send(404, "text/plain", "Not Found");
+    });
+    _server.begin();
 }
 
-void Init_config(const char* ssid, const char* password)
+
+void Wifi_config::Init_config(Wifi_config_TypeDef *conf)
 {
+  if(conf == nullptr) return; 
+
   esp_pref.begin("wifi", true); // read only
   String saved_ssid = esp_pref.getString("ssid", ""); // Lấy SSID đã lưu, mặc định là rỗng
   String saved_pass = esp_pref.getString("pass", ""); // Lấy pass đã lưu, mặc định là rỗng
   esp_pref.end();
   
+  bool is_connected = false;
+
   if (saved_ssid != "") 
   {
     Serial.println("Connecting to: " + saved_ssid);
@@ -157,21 +163,30 @@ void Init_config(const char* ssid, const char* password)
       Serial.print(".");
       count++;
     }
-    if (WiFi.status() == WL_CONNECTED) 
-    {
-      Serial.println("\nWiFi ĐÃ KẾT NỐI!");
-      Serial.println(WiFi.localIP());
-      for(int i=0; i<30; i++)
-      {
-        digitalWrite(LED_BUILTIN, HIGH); 
-        delay(200);
-        digitalWrite(LED_BUILTIN, LOW); 
-        delay(200);
-      }
-      // GỌI HÀM KẾT NỐI BLYNK TẠI ĐÂY
-      return; // Thoát setup, không phát AP nữa
-    }
+    if (WiFi.status() == WL_CONNECTED) is_connected = true;
   }
-  WiFi.softAP(ssid, password); // ssid, password
-  Serial.println(WiFi.softAPIP()); // địa chỉ IP của AP
+
+  // không kết nối đc wifi cũ thì phát AP
+  if(!is_connected)
+  {
+    Serial.println("Failed to connect. Starting AP mode...");
+    WiFi.softAP(conf->ssid, conf->password); // ssid, password
+    Serial.println(WiFi.softAPIP()); // địa chỉ IP của AP
+  }
+  else
+  {
+    Serial.println("\nCONNECTED!");
+    Serial.println(WiFi.localIP());
+  }
+  Server_setup();
+}
+
+bool Wifi_config::Is_connected()
+{
+  return WiFi.status() == WL_CONNECTED;
+}
+
+void Wifi_config::Handle_Client() // gọi trong loop
+{
+  _server.handleClient();
 }
