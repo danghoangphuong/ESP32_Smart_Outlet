@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=AC_L Pin=F1-1
+Removed Pin From Net: NetName=AC_L Pin=P3-1
+Removed Pin From Net: NetName=AC_N Pin=P3-2
+Removed Pin From Net: NetName=AC_N Pin=PS1-2
+Removed Pin From Net: NetName=AC_N Pin=RV3-1
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=P3-2
+Added Net: Name=NetF1_1
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Pin To Net: NetName=NetP3_1 Pin=PS1-2
+Added Net: Name=NetP3_1
+Added Member To Class: ClassName=Schematic Member=Component C5 104
+Added Member To Class: ClassName=Schematic Member=Component C8 104
+Added Member To Class: ClassName=Schematic Member=Component C10 104
+Added Member To Class: ClassName=Schematic Member=Component C11 104
+Added Member To Class: ClassName=Schematic Member=Component C13 104
+Added Member To Class: ClassName=Schematic Member=Component R3 100R/ 2W
+Added Member To Class: ClassName=Schematic Member=Component R16 330
+Added Room: Name=Schematic

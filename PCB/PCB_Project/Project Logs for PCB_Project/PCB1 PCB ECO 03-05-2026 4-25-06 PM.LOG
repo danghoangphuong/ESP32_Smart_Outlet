@@ -1,0 +1,394 @@
+Removed Pin From Net: NetName=NetC2_1 Pin=C2-1
+Removed Pin From Net: NetName=BTN1 Pin=C8-1
+Removed Pin From Net: NetName=BTN2 Pin=C9-1
+Removed Pin From Net: NetName=BTN3 Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Pin From Net: NetName=AC_N Pin=P1-1
+Removed Pin From Net: NetName=NetC1_1 Pin=P1-2
+Removed Pin From Net: NetName=AC_N Pin=P4-1
+Removed Pin From Net: NetName=NetC5_1 Pin=P4-2
+Removed Pin From Net: NetName=GND Pin=Q1-1
+Removed Pin From Net: NetName=NetD1_1 Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q2-1
+Removed Pin From Net: NetName=NetD2_1 Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q3-1
+Removed Pin From Net: NetName=NetD5_1 Pin=Q3-2
+Removed Pin From Net: NetName=NetC1_2 Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=R9-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=+5 Pin=R11-1
+Removed Pin From Net: NetName=NetL3_1 Pin=R11-2
+Removed Pin From Net: NetName=NetC5_2 Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Pin From Net: NetName=BTN_RST Pin=R17-1
+Removed Pin From Net: NetName=+3.3 Pin=R17-2
+Removed Pin From Net: NetName=BTN1 Pin=R18-1
+Removed Pin From Net: NetName=+3.3 Pin=R18-2
+Removed Pin From Net: NetName=BTN2 Pin=R19-1
+Removed Pin From Net: NetName=+3.3 Pin=R19-2
+Removed Pin From Net: NetName=BTN3 Pin=R20-1
+Removed Pin From Net: NetName=+3.3 Pin=R20-2
+Removed Pin From Net: NetName=NetC1_1 Pin=RL1-3
+Removed Pin From Net: NetName=NetC5_1 Pin=RL3-3
+Removed Pin From Net: NetName=NetC1_1 Pin=RV1-1
+Removed Pin From Net: NetName=NetC5_1 Pin=RV4-1
+Removed Pin From Net: NetName=+5 Pin=U1-4
+Removed Pin From Net: NetName=+5 Pin=U2-4
+Removed Pin From Net: NetName=+5 Pin=U3-4
+Removed Member From Class: ClassName=Schematic Member=C10
+Change Component Footprint: Designator=C1 Old Footprint=Cap_Poly_684J400V New Footprint=tu 1206
+Change Component Footprint: Designator=C2 Old Footprint=Cap_Poly_684J400V New Footprint=tu 1206
+Change Component Footprint: Designator=C5 Old Footprint=Cap_Poly_684J400V New Footprint=tu 1206
+Change Component Footprint: Designator=D1 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=D2 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=D3 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=D4 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=D5 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=D6 Old Footprint=DIODE 1A New Footprint=DIODE SMA
+Change Component Footprint: Designator=U1 Old Footprint=DIP4 New Footprint=SOP4
+Change Component Footprint: Designator=U2 Old Footprint=DIP4 New Footprint=SOP4
+Change Component Footprint: Designator=U3 Old Footprint=DIP4 New Footprint=SOP4
+Change Component Footprint: Designator=Q1 Old Footprint=TO92 New Footprint=SOT-23
+Change Component Footprint: Designator=Q2 Old Footprint=TO92 New Footprint=SOT-23
+Change Component Footprint: Designator=Q3 Old Footprint=TO92 New Footprint=SOT-23
+Change Component Footprint: Designator=R1 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R3 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R5 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R6 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R7 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R8 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R9 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R10 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R11 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R12 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R14 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R15 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R16 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R17 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R18 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R19 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=R20 Old Footprint=tro vach 1/4w New Footprint=tro smd 1206
+Change Component Footprint: Designator=C4 Old Footprint=tu gom New Footprint=tu 1206
+Change Component Footprint: Designator=C6 Old Footprint=tu gom New Footprint=tu 1206
+Change Component Footprint: Designator=C8 Old Footprint=tu gom New Footprint=tu 1206
+Change Component Footprint: Designator=C9 Old Footprint=tu gom New Footprint=tu 1206
+Change Component Footprint: Designator=C3 Old Footprint=tu hoa 8mm New Footprint=tu nhom 6.3 (d)
+Change Component Comment : Designator=D1 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=D2 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=D3 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=D4 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=D5 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=D6 Old Comment=1N4007 New Comment=M7
+Change Component Comment : Designator=C1 Old Comment=104/ 630V New Comment=104
+Change Component Comment : Designator=C2 Old Comment=104/ 630V New Comment=104
+Change Component Comment : Designator=C5 Old Comment=104/ 630V New Comment=104
+Change Component Comment : Designator=R7 Old Comment=330R New Comment=330
+Change Component Comment : Designator=R8 Old Comment=330R New Comment=330
+Change Component Comment : Designator=R11 Old Comment=330R New Comment=330
+Change Component Comment : Designator=R15 Old Comment=330R New Comment=330
+Change Component Comment : Designator=C3 Old Comment=470uF New Comment=220uF
+Change Component Comment : Designator=Q1 Old Comment=C1815 New Comment=HF
+Change Component Comment : Designator=Q2 Old Comment=C1815 New Comment=HF
+Change Component Comment : Designator=Q3 Old Comment=C1815 New Comment=HF
+Change Component Comment : Designator=L2 Old Comment=LED SLOT 1 New Comment=LED SLOT 2
+Change Component Comment : Designator=L4 Old Comment=LED SLOT 3 New Comment=LED SLOT 2
+Change Component Comment : Designator=U1 Old Comment=OPTO PC817 DIP4 New Comment=OPTO PC817 SMD
+Change Component Comment : Designator=U2 Old Comment=OPTO PC817 DIP4 New Comment=OPTO PC817 SMD
+Change Component Comment : Designator=U3 Old Comment=OPTO PC817 DIP4 New Comment=OPTO PC817 SMD
+Change component parameters: Designator = "RV2" ("RV2"); Footprint = "MOV14D471K"; UniqueID = "\VRNYVYSC" ("\VRNYVYSC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MOV-14D471K/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MOV-14D471K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Disc-14 Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/MOV-14D471K/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MOV-14D471K/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "tu hoa 8mm"; UniqueID = "\JZIMMCZX" ("\JZIMMCZX")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002227"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Nhôm 220uF 16V 6.3x7.7MM"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "tu gom"; UniqueID = "\PYCVMWVI" ("\PYCVMWVI")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "tu gom"; UniqueID = "\WTSUMGQH" ("\WTSUMGQH")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "tu gom"; UniqueID = "\RRKNXJOP" ("\RRKNXJOP")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "tu gom"; UniqueID = "\IECHUIMW" ("\IECHUIMW")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "tro vach 1/4w"; UniqueID = "\WVUNOBJD" ("\WVUNOBJD")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "tro vach 1/4w"; UniqueID = "\WCTJSJOC" ("\WCTJSJOC")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "tro vach 1/4w"; UniqueID = "\YWPVGMXZ" ("\YWPVGMXZ")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "tro vach 1/4w"; UniqueID = "\OTECFQCX" ("\OTECFQCX")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "tro vach 1/4w"; UniqueID = "\HZEPWETC" ("\HZEPWETC")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "tro vach 1/4w"; UniqueID = "\ZUWCHOME" ("\ZUWCHOME")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "tro vach 1/4w"; UniqueID = "\QEMYIGHK" ("\QEMYIGHK")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "tro vach 1/4w"; UniqueID = "\BMSDPTAY" ("\BMSDPTAY")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "tro vach 1/4w"; UniqueID = "\PBSXPFEE" ("\PBSXPFEE")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "tro vach 1/4w"; UniqueID = "\TQCGERCK" ("\TQCGERCK")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14" ("R14"); Footprint = "tro vach 1/4w"; UniqueID = "\PUDNUQSW" ("\PUDNUQSW")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R15" ("R15"); Footprint = "tro vach 1/4w"; UniqueID = "\NIEHSBCD" ("\NIEHSBCD")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "tro vach 1/4w"; UniqueID = "\BJFRBVZF" ("\BJFRBVZF")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "tro vach 1/4w"; UniqueID = "\VEDTSULK" ("\VEDTSULK")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "tro vach 1/4w"; UniqueID = "\IZFWFTXP" ("\IZFWFTXP")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "tro vach 1/4w"; UniqueID = "\BEXDQQKF" ("\BEXDQQKF")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "tro vach 1/4w"; UniqueID = "\CJUEGHSF" ("\CJUEGHSF")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH005884"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? 1206 1% 7.5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("D1"); Footprint = "DIODE 1A"; UniqueID = "\HZDMKZLH" ("\HZDMKZLH")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2" ("D2"); Footprint = "DIODE 1A"; UniqueID = "\AWDXERLW" ("\AWDXERLW")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3" ("D3"); Footprint = "DIODE 1A"; UniqueID = "\GFPSLUPU" ("\GFPSLUPU")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4" ("D4"); Footprint = "DIODE 1A"; UniqueID = "\ZTZZFETU" ("\ZTZZFETU")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5" ("D5"); Footprint = "DIODE 1A"; UniqueID = "\CTIUEZDZ" ("\CTIUEZDZ")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D6" ("D6"); Footprint = "DIODE 1A"; UniqueID = "\CPLQSVJX" ("\CPLQSVJX")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000944"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode M7 1N4007 SMD 1A 1000V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "Cap_Poly_684J400V"; UniqueID = "\MZDWOBKG" ("\MZDWOBKG")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "Cap_Poly_684J400V"; UniqueID = "\JDKITYRF" ("\JDKITYRF")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "Cap_Poly_684J400V"; UniqueID = "\QZDMSHBA" ("\QZDMSHBA")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Added Component: Designator=C7(tu 1206)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH004544"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? 1206 104-0.1uF 20% 50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_1 Pin=C2-2
+Added Pin To Net: NetName=BTN1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=BTN2 Pin=C8-1
+Added Pin To Net: NetName=BTN3 Pin=C9-1
+Added Pin To Net: NetName=NetC1_2 Pin=P1-1
+Added Pin To Net: NetName=AC_N Pin=P1-2
+Added Pin To Net: NetName=NetC5_2 Pin=P4-1
+Added Pin To Net: NetName=AC_N Pin=P4-2
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetD1_1 Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=NetD2_1 Pin=Q2-3
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetD5_1 Pin=Q3-3
+Added Pin To Net: NetName=NetC1_1 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=NetL3_1 Pin=R11-1
+Added Pin To Net: NetName=+5 Pin=R11-2
+Added Pin To Net: NetName=NetC5_1 Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=+3.3 Pin=R17-1
+Added Pin To Net: NetName=BTN_RST Pin=R17-2
+Added Pin To Net: NetName=+3.3 Pin=R18-1
+Added Pin To Net: NetName=BTN2 Pin=R18-2
+Added Pin To Net: NetName=+3.3 Pin=R19-1
+Added Pin To Net: NetName=BTN1 Pin=R19-2
+Added Pin To Net: NetName=+3.3 Pin=R20-1
+Added Pin To Net: NetName=BTN3 Pin=R20-2
+Added Pin To Net: NetName=NetC1_2 Pin=RL1-3
+Added Pin To Net: NetName=NetC5_2 Pin=RL3-3
+Added Pin To Net: NetName=NetC1_2 Pin=RV1-1
+Added Pin To Net: NetName=NetC5_2 Pin=RV4-1
+Added Pin To Net: NetName=NetL1_1 Pin=U1-4
+Added Pin To Net: NetName=NetL2_1 Pin=U2-4
+Added Pin To Net: NetName=NetL4_1 Pin=U3-4
+Change Net Name : Old Net Name=NetC2_1 New Net Name=NetC2_2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=R4-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R7-1
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R8-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R15-1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=R9-2
+Added Pin To Net: NetName=NetR7_2 Pin=U1-3
+Added Net: Name=NetR7_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R10-2
+Added Pin To Net: NetName=NetR8_2 Pin=U2-3
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=R16-2
+Added Pin To Net: NetName=NetR15_2 Pin=U3-3
+Added Net: Name=NetR15_2
+Added Member To Class: ClassName=Schematic Member=Component C7 104

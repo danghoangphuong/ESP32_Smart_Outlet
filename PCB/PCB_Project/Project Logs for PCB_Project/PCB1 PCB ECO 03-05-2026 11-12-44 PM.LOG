@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=AC_L Pin=F0.5A-1
+Removed Pin From Net: NetName=AC_L Pin=F0.5A-1
+Removed Member From Class: ClassName=Schematic Member=F0.5A
+Added Component: Designator=F2(FUSE)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/36911000000/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "36911000000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/36911000000/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AC_L Pin=F2-1
+Added Pin To Net: NetName=NetF2_2 Pin=F2-2
+Added Pin To Net: NetName=NetF2_2 Pin=PS-1
+Added Pin To Net: NetName=NetF2_2 Pin=RV3-2
+Added Net: Name=NetF2_2
+Added Member To Class: ClassName=Schematic Member=Component F2 Fuse
+Added Room: Name=Schematic

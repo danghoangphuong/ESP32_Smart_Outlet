@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=AC_L Pin=F0.5A-2
+Removed Pin From Net: NetName=AC_L Pin=F0.5A-2
+Removed Pin From Net: NetName=AC_L Pin=PS-1
+Removed Pin From Net: NetName=AC_L Pin=RV3-2
+Added Pin To Net: NetName=NetF0.5A_2 Pin=F0.5A-2
+Added Pin To Net: NetName=NetF0.5A_2 Pin=F0.5A-2
+Added Pin To Net: NetName=NetF0.5A_2 Pin=PS-1
+Added Pin To Net: NetName=NetF0.5A_2 Pin=RV3-2
+Added Net: Name=NetF0.5A_2
+Added Room: Name=Schematic
